@@ -9,9 +9,9 @@ const net = require("net");
 
 
 console.log("Connecting ...");
-connect();
-
-setupInput();
+// connect();
+const connectObj = connect();
+setupInput(connectObj);
 // setup interface to handle user input from stdin
 
 // const setupInput = function () {
